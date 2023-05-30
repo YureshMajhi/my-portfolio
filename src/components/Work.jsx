@@ -2,7 +2,7 @@ import React from "react";
 import form from "../assets/Form.png";
 import youtube from "../assets/Youtube.png";
 import card from "../assets/card.png";
-import calculator from "../assets/calculator.png";
+import todoList from "../assets/todo-list.png";
 import game from "../assets/RockPaperScissor.png";
 import library from "../assets/library.png";
 
@@ -29,7 +29,7 @@ const Work = () => {
             {/* hover effects */}
             <div className="opacity-0 group-hover:opacity-100">
               <span className="text-2xl font-bold text-white tracking-wider">
-                Form HTML CSS
+                Form /*HTML CSS*/
               </span>
               <div className="pt-8 text-gray-700 text-lg">
                 <a
@@ -58,7 +58,7 @@ const Work = () => {
             {/* hover effects */}
             <div className="opacity-0 group-hover:opacity-100">
               <span className="text-2xl font-bold text-white tracking-wider">
-                Youtube HTML CSS
+                Youtube /*HTML CSS*/
               </span>
               <div className="pt-8 text-gray-700 text-lg ">
                 <a
@@ -84,7 +84,7 @@ const Work = () => {
             {/* hover effects */}
             <div className="opacity-0 group-hover:opacity-100">
               <span className="text-2xl font-bold text-white tracking-wider">
-                Card CSS Animation
+                Card /*CSS Animation*/
               </span>
               <div className="pt-8 text-gray-700 text-lg ">
                 <a
@@ -107,17 +107,17 @@ const Work = () => {
             </div>
           </div>
           <div
-            style={{ backgroundImage: `url(${calculator})` }}
+            style={{ backgroundImage: `url(${todoList})` }}
             className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
           >
             {/* hover effects */}
             <div className="opacity-0 group-hover:opacity-100">
               <span className="text-2xl font-bold text-white tracking-wider">
-                Calculator JS
+                Todo List /*JS Webpack*/
               </span>
               <div className="pt-8 text-gray-700 text-lg ">
                 <a
-                  href="https://yureshmajhi.github.io/odin-calculator/code.html"
+                  href="https://yureshmajhi.github.io/todoList/dist/index.html"
                   target="_blank"
                 >
                   <button className=" rounded-lg px-4 py-3 m-2 bg-white font-bold">
@@ -125,7 +125,7 @@ const Work = () => {
                   </button>
                 </a>
                 <a
-                  href="https://github.com/YureshMajhi/odin-calculator"
+                  href="https://github.com/YureshMajhi/todoList"
                   target="_blank"
                 >
                   <button className=" rounded-lg px-4 py-3 m-2 bg-white font-bold">
@@ -142,7 +142,7 @@ const Work = () => {
             {/* hover effects */}
             <div className="opacity-0 group-hover:opacity-100">
               <span className="text-2xl font-bold text-white tracking-wider">
-                Rock Paper Scissor JS
+                Rock Paper Scissor /*JS*/
               </span>
               <div className="pt-8 text-gray-700 text-lg ">
                 <a
@@ -171,7 +171,7 @@ const Work = () => {
             {/* hover effects */}
             <div className="opacity-0 group-hover:opacity-100">
               <span className="text-2xl font-bold text-white tracking-wider">
-                Library JS
+                Library /*JS*/
               </span>
               <div className="pt-8 text-gray-700 text-lg">
                 <a
