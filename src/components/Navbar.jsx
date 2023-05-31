@@ -1,11 +1,5 @@
 import React, { useState } from "react";
-import {
-  FaBars,
-  FaTimes,
-  FaFacebook,
-  FaLinkedin,
-  FaGithub,
-} from "react-icons/fa";
+import { FaBars, FaTimes, FaLinkedin, FaGithub } from "react-icons/fa";
 import { AiOutlineMail } from "react-icons/ai";
 import { BsFillPersonLinesFill } from "react-icons/bs";
 import Logo from "../assets/Yuresh.png";
