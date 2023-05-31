@@ -31,7 +31,7 @@ const Work = () => {
               <span className="text-2xl font-bold text-white tracking-wider">
                 Form /*HTML CSS*/
               </span>
-              <div className="pt-8 text-gray-700 text-lg">
+              <div className="pt-8 text-gray-700 text-lg ">
                 <a
                   href="https://yureshmajhi.github.io/HTML-CSS-Form/code.html"
                   target="_blank"
