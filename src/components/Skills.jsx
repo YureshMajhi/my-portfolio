@@ -8,7 +8,7 @@ import tailwind from "../assets/tailwind.png";
 
 const Skills = () => {
   return (
-    <div className="w-full h-screen bg-[#0a192f] text-gray-300">
+    <div className="w-full h-screen bg-[#0a192f] text-gray-300 flex justify-center items-center">
       {/* container */}
       <div className="w-full max-w-[1000px] flex flex-col px-2 mx-auto">
         <div>
