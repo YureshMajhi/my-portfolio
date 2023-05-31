@@ -8,19 +8,19 @@ import library from "../assets/library.png";
 
 const Work = () => {
   return (
-    <div name="work" className="w-full md:h-screen bg-[#0a192f] text-gray-300">
+    <div name="work" className="w-full md:h-screen bg-[#0b0c10] text-gray-300">
       {/* container */}
       <div className="max-w-[1000px] w-full h-full mx-auto flex flex-col justify-center p-4">
         {/* info */}
         <div className="pb-8">
-          <p className="text-4xl font-bold border-b-4 border-pink-600 inline">
+          <p className="text-4xl font-bold border-b-4 border-[#66fcf1] inline">
             Work
           </p>
           <p className="py-6">// Check out my recent work!</p>
         </div>
 
         {/* grid container */}
-        <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-4 text-center">
+        <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-6 text-center">
           {/* grid item */}
           <div
             style={{ backgroundImage: `url(${form})` }}

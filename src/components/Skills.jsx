@@ -10,12 +10,12 @@ const Skills = () => {
   return (
     <div
       name="skills"
-      className="w-full h-screen bg-[#0a192f] text-gray-300 flex justify-center items-center"
+      className="w-full h-screen bg-[#0b0c10] text-gray-300 flex justify-center items-center"
     >
       {/* container */}
       <div className="w-full max-w-[1000px] flex flex-col px-2 mx-auto">
         <div>
-          <p className="text-4xl font-bold border-b-4 border-pink-600 inline">
+          <p className="text-4xl font-bold border-b-4 border-[#66fcf1] inline">
             Skills
           </p>
           <p className="py-4">
@@ -24,15 +24,15 @@ const Skills = () => {
         </div>
 
         <div className="grid grid-cols-2 sm:grid-cols-3 gap-4 text-center py-8">
-          <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
+          <div className="shadow-md shadow-[#45a29e] hover:scale-110 duration-500">
             <img className="mx-auto w-20" src={html} alt="html icon" />
             <p className="my-4">HTML</p>
           </div>
-          <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
+          <div className="shadow-md shadow-[#45a29e] hover:scale-110 duration-500">
             <img className="mx-auto w-20" src={css} alt="css icon" />
             <p className="my-4">CSS</p>
           </div>
-          <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
+          <div className="shadow-md shadow-[#45a29e] hover:scale-110 duration-500">
             <img
               className="mx-auto w-20"
               src={javascript}
@@ -40,15 +40,15 @@ const Skills = () => {
             />
             <p className="my-4">Javascript</p>
           </div>
-          <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
+          <div className="shadow-md shadow-[#45a29e] hover:scale-110 duration-500">
             <img className="mx-auto w-20" src={github} alt="github icon" />
             <p className="my-4">Github</p>
           </div>
-          <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
+          <div className="shadow-md shadow-[#45a29e] hover:scale-110 duration-500">
             <img className="mx-auto w-20" src={react} alt="react icon" />
             <p className="my-4">React</p>
           </div>
-          <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
+          <div className="shadow-md shadow-[#45a29e] hover:scale-110 duration-500">
             <img className="mx-auto w-20" src={tailwind} alt="tailwind icon" />
             <p className="my-4">Tailwind</p>
           </div>
