@@ -8,8 +8,9 @@
   body {
     @apply font-[Raleway];
   }
+
   li {
-    @apply px-5;
+    @apply mx-5;
     @apply cursor-pointer;
     @apply text-xl;
   }
